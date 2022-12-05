@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sacramento&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: .5rem;
+    align-items: center;
+    /* display: flex; */
+}
+
+div{
+    display: flex;
+
+}
+
+.heading p{
+    width: 18px;
+    /* padding-bottom: 2rem; */
+    border-top: 30px dotted orangered ;
+    display:flex;
+    margin: .32rem;
+}
+.heading h3{
+    color: rgba(105, 90, 205, 0.703);
+    padding-left: .5rem;
+    font-weight: 200;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.heading h1,h3{
+    display: inline-block;
+}
+
+
+.navbar ul{
+
+    display: flex;
+    padding-top: .5rem;
+    flex-direction: row;
+     align-items: end;
+     list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: slateblue;
+    padding: 1.2rem;
+}
+.navbar ul li a:hover{
+    color: black;
+}
+.menu{
+    margin-left: 27rem;
+}
+
+
+.user-image{
+    margin: 8rem 1rem 2rem 8rem;
+}
+.intro{
+   display: block;
+   padding-right: 3rem;
+   margin: 8rem 2rem;
+}
+.intro h2{
+    margin-top: 1rem;
+    font-size: 4rem;
+    font-family: 'Sacramento', cursive;
+    color: black;
+}
+.intro h3{
+    margin: 0 0 .5rem 0;
+    font-size: 2rem;
+    color: slateblue;
+}
+.intro p{
+    line-height: 1.5;
+}
+
+.user-image{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    box-shadow: 2px 2px 8px gray;
+}
+
+.links{
+    display: block;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+}
+
+.circles{
+    display: inline-block;
+    align-items: center;
+    margin: 1.2rem;
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+    border: .5px solid black;
+    border-radius: 100%;    
+}
+.circles:hover
+{
+    background-color: #fff;
+    cursor: pointer;
+}
+.circle1{
+    background-color: #CCD6A6;
+}
+.circle2{
+    background-color: #F5EBE0;
+}
+.circle3{
+    background-color: #FF9F9F;
+}
+
+.icon{
+    height: 1.2rem;
+    margin: .5rem;
+}
+/* .left{
+    display: block;
+} */
+.head{
+    display: block;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-right:6.3rem ;
+}
+.contact-section{
+    padding: 2rem;
+}
+.details{
+    display: block;
+}
+.mail,.phone{
+    font-weight: 200;
+}
+
+
+
+
+/* ---------------------------------- Contact Page -------------------------------------------------- */
+
+
+
+.contact-left{
+    display: block;
+    margin: 3rem 0rem 0 10rem;
+}
+.contact-left  h2{
+    font-size: 3rem;
+    /* margin: 2rem 0; */
+}
+.contact-left h3{
+    font-size: 2rem;
+    /* margin: rem 0; */
+}
+.contact-left p{
+    margin: 0 0 2rem .3rem;
+}
+
+.form-section  {
+    margin: 4rem 0 0 20rem;
+
+
+}
+
+
+.form-section label{
+    display: block;
+    font-size: 1.1rem;
+    margin-top: .4rem;
+}
+.form-section label span{
+    color: red;
+}
+
+.form-section input{
+    height: 2rem;
+    width: 16rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input::placeholder{
+    padding-left: .5rem;
+    opacity: 60%;
+}
+textarea{
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* opacity: 60%; */
+}
