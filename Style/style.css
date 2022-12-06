@@ -145,6 +145,8 @@ div{
 }
 .mail,.phone{
     font-weight: 200;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -199,4 +201,46 @@ textarea{
     padding: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     /* opacity: 60%; */
+}
+
+
+/* -------------------- Project Page ------------------------------ */
+.project-heading{ 
+    font-size: 2.6rem;
+    font-weight: 600;
+    /* display: block; */
+}
+
+.Project-section{
+    margin: 4rem 8rem 4rem 8rem;
+    display: block;
+    /* background-color: red;    */
+}
+.project1{
+    margin-top: 4rem;
+    padding-left: 2rem;
+    background-color: gray;
+    /* width: 40%; */
+    border-radius: 2rem;
+}
+.project-name{
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+.project-details{
+    padding: 1rem 0;
+    margin: 1.5rem;
+}
+.project{
+    padding-left: 2rem;
+    background-color: gray;
+    /* width: 30%; */
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+}
+
+.project-img{
+    width: 23rem;
+    margin-left: 1rem;
 }
